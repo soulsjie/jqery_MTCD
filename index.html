@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--jQuery类美团点餐界面-->
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script src="libs/jquery-1.8.3.js"></script>
+    <link rel="stylesheet" href="soulsjie.css">
+</head>
+<body>
+	<div class="header">头部</div>
+
+		<div class="left">
+			<div class="mnue">菜单1</div>
+			<div class="mnue">菜单1</div>
+			<div class="mnue">菜单1</div>
+			<div class="mnue">菜单1</div>
+			<div class="mnue">菜单1</div>
+		</div>
+		<div class="right">
+			<dl>
+			   <dt><img src="images/01.jpg" alt=""></dt>
+			   <dd><h3>商品名</h3></dd>
+			   <dd>销售量</dd>
+			   <dd><span>价格:$</span><span id="goods_price">18.50</span></dd> 
+			   <div><button class="jian"></button>&nbsp;<span id="goods_number">0</span>&nbsp;<button class="jia"></button></div>
+			</dl>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="f_left">
+			<dl>
+				<dd><img src="images/gwc.png" alt=""><div class="shuliang">0</div></dd>
+				<dd class="info">已选:<span id="NUM">0</span>件,总价格：<span id="SUM">0</span>元</dd>
+			</dl>
+		</div>
+		<div class="f_right">去结算</div>
+	</div>
+<script src="js/gwc.js"></script>
+</body>
+</html>
